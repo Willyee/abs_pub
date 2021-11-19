@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+    <arg name="run_i2c_pwmboard" default="true"/>
+
+    <node name="abs_pub" pkg="motor_drive" type="abs_pub" output="screen">
+    </node>
+
+    <node if="$(arg run_i2c_pwmboard)" name="i2cpwm_board_node" pkg="i2cpwm_board" type="i2cpwm_board" output="screen">   │walk: Start walk mode and keyboard motion control
+    </node>  
+</launch>
