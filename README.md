@@ -29,6 +29,7 @@ then get to your workspace/src clone and build the package:
 ```
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/mentor-dyun/ros-i2cpwmboard.git
+$ git clone https://github.com/Willyee/abs_pub.git
 $ cd ~/catkin_ws && catkin_make
 ```
 
@@ -44,7 +45,7 @@ roslaunch motor_drive abs_pub.launch
 
 you can use `rostopic echo` to check if it's working:
 ```sh
-rostopic echo /servos_absoulte
+rostopic echo /servos_absolute
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
