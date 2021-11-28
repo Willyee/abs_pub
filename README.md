@@ -31,6 +31,7 @@ $ cd ~/catkin_ws/src/
 $ git clone https://github.com/mentor-dyun/ros-i2cpwmboard.git
 $ git clone https://github.com/Willyee/abs_pub.git
 $ cd ~/catkin_ws && catkin_make
+$ source ~/.bashrc
 ```
 
 
